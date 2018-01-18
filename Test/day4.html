@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>day4JS2</title>
+    <link rel="stylesheet" href="css/style.css"/>
+</head>
+
+<body>
+    <h1>Hallo</h1>
+
+    <div>
+	<input type="text=" id="vardas"/>
+	</div>
+
+	<div>
+	<button id="btn" onclick="showtext()">Calculate</button>
+	</div>
+
+	<div id="result"> 
+	</div>
+ <script>
+ 
+	function showtext(){
+		
+	//document.getElementById("result").innerHTML = "mygtukas veikia";
+	//document.getElementById("tekstas").value = "Johnny Bravo";
+	var t = document.getElementById("vardas").value;
+	t = "Labas rytas, "+ t;
+	document.getElementById("result").innerHTML = t;
+
+
+
+	//console.log(t);
+
+
+}
+
+</script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
